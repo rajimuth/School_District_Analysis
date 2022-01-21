@@ -116,16 +116,39 @@ Results show that the % passing math, reading and both increased back to that th
 
 <img width="692" alt="image" src="https://user-images.githubusercontent.com/94877067/150464591-3b459765-d21f-4630-9bf9-69d74e3e8311.png">
 
+Thomas High school still remianined in the list of top high schools.
+
+<img width="563" alt="image" src="https://user-images.githubusercontent.com/94877067/150465506-abf079bd-a816-42c0-b522-ec61f0b00750.png">
+
+
 #### Effect of replacing the ninth-grade scores on Math and reading scores by grade
+MATH SCORES:
+<img width="242" alt="image" src="https://user-images.githubusercontent.com/94877067/150466235-92b115ca-dd67-4025-baeb-30962fefe633.png">
+
+READING SCORES: 
+<img width="182" alt="image" src="https://user-images.githubusercontent.com/94877067/150466303-d62fff33-de2b-46d3-a666-188465503892.png">
+
+The changes were obviously reflected for the ninth grade values for Thomas High School as NaN
 
 
 #### Effect of replacing the ninth-grade scores on Scores by school spending
 
+<img width="446" alt="image" src="https://user-images.githubusercontent.com/94877067/150466618-ef7c9928-2246-49d4-b656-c2805f756fe0.png">
+
+ The changes in ninth grade THomas High School scores did not have an effect on scores by school spending.
 
 #### Effect of replacing the ninth-grade scores on Scores by school size
 
+<img width="451" alt="image" src="https://user-images.githubusercontent.com/94877067/150466873-3d0a1c4c-3b4b-4b45-ab70-ebe98947d660.png">
+
+
 
 #### Effect of replacing the ninth-grade scores on Scores by school type
+
+
+<img width="412" alt="image" src="https://user-images.githubusercontent.com/94877067/150466993-e2447795-7878-4266-8671-2b1197c31fa5.png">
+There was no effect due to changes in the ninth grade scores at Thomas HIgh School
+
 
 
 

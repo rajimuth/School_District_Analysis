@@ -1,6 +1,6 @@
 # School_District_Analysis.
 ## Overview of the school district analysis:
- Maria, the chief data scientist for city school districts is responsibe for analyzing information from a varieity of sources and in a variety of formats. Currently, she is tasked with presenting imsights in to  City Schools Testing Proficiency for reading and math in different high schools. These insights are used to inform discussions and strategic decisions at the school and distict level. The current analysis involves helping Maria to analyze data on student funding and student standardized test scores. The analyzed data results will help the school board regarding the decison of school budget allotment. 
+ Maria, the chief data scientist for city school districts is responsibe for analyzing information from a varieity of sources and in a variety of formats. Currently, she is tasked with presenting insights in to  City Schools Testing Proficiency for reading and math in different high schools. These insights are used to inform discussions and strategic decisions at the school and distict level. The current analysis involves helping Maria to analyze data on student funding and student standardized test scores. The analyzed data results will help the school board regarding the decison of school budget allotment. 
 
 First part analysis was done on the school district data to get the district summary of school such as Total schools in the district, Total students, Total Budget for all schools in the district, Average Math score, Reading score, % of students passing Math, reading, both math and reading. 
 
@@ -62,9 +62,10 @@ Initial step in the cleaning process is to convert the ninth grade Math and read
 <img width="619" alt="image" src="https://user-images.githubusercontent.com/94877067/150463221-1d4e49f6-a01f-4d67-868c-d3ba523bdb1b.png">
 
 Result was as shown below:
+
 <img width="379" alt="image" src="https://user-images.githubusercontent.com/94877067/150463302-facfe56c-9a06-4a6a-85c6-b34fc2531c2d.png">
 
- The updates data frame was then used for further analysis to see if this change made affects the result of the analysis.
+ The updated data frame was then used for further analysis to see if this change made affects the result of the analysis.
 
 
 ### District Summary Analysis
@@ -78,7 +79,7 @@ Result was as shown below:
 <img width="569" alt="image" src="https://user-images.githubusercontent.com/94877067/150443148-5ad3d7f3-07cd-4b78-9617-74f03f0c0c43.png">
 
 #### Effect of change in district summary:
-The District summary results were not afffected by the changes. The changes applied was only for the ninth grade Math and Reading scores in Thomas High school. This shows that the ninth grade scores from Thomas high school did not have any impact on the overall numbers of math and reading scores from all the high schools.
+The District summary results was not afffected by the changes. The changes applied was only for the ninth grade Math and Reading scores in Thomas High school. This shows that the ninth grade scores from Thomas high school did not have any impact on the overall numbers of math and reading scores from all the high schools.
 
 ### Per School Summary 
 ##### Per School Summary results before Changes:
@@ -152,7 +153,54 @@ There was no effect due to changes in the ninth grade scores at Thomas HIgh Scho
 
 
 
-Summary:
+#### Summary:
+Changes affected the % Passing Math and Reading in Thomas High school. After recalculation was done to calculate the % passing of Math, Reading and both with total students in 10th to 12th grade, the difference was not too obvious.
+Changes was also reflected in the math and reading scores calculated for each grade. 9th grade Thomas High scoll graded were shown as NaN.
 
-There is a statement summarizing four changes to the school district analysis after reading and math scores have been replaced (5 pt).
-Submission
+##### CHANGE 1:
+Before Changes  % Passing Math in Thomas High School:
+
+<img width="390" alt="image" src="https://user-images.githubusercontent.com/94877067/150622006-8ad69798-dac9-4947-99d7-5d990eb9841d.png">
+
+After Changes  % Passing Math in Thomas High School:
+
+<img width="440" alt="image" src="https://user-images.githubusercontent.com/94877067/150622058-ef6daa44-e23e-4d24-9d5f-49bfd1edad78.png">
+
+##### CHANGE 2:
+
+Before Changes  % Passing Reading in Thomas High School:
+
+<img width="457" alt="image" src="https://user-images.githubusercontent.com/94877067/150622089-89e6ad1d-f380-4891-949b-4def6464e7c1.png">
+
+Before Changes  % Passing Reading in Thomas High School:
+
+<img width="437" alt="image" src="https://user-images.githubusercontent.com/94877067/150622105-79993178-8b23-414f-9449-434036ed67a4.png">
+
+##### CHANGE 3:
+
+Grade level score: Attention to Thomas High school ninth grade Math score before changes:
+
+<img width="296" alt="image" src="https://user-images.githubusercontent.com/94877067/150622150-5b45f59b-5883-4532-b268-bd4d2086906c.png">
+
+
+Grade level score: Attention to Thomas High school ninth grade Math score after changes:
+
+<img width="281" alt="image" src="https://user-images.githubusercontent.com/94877067/150622185-99e95953-c0b7-44a7-bab9-c3e680e47e1e.png">
+
+
+##### CHANGE 4:
+
+Grade level score: Attention to Thomas High school ninth grade Reading score before changes:
+
+<img width="297" alt="image" src="https://user-images.githubusercontent.com/94877067/150622254-edd1183f-c333-47a4-9459-ae110234214a.png">
+
+
+
+Grade level score: Attention to Thomas High school ninth grade Reading score after changes:
+
+<img width="309" alt="image" src="https://user-images.githubusercontent.com/94877067/150622283-70eb118b-07ae-4a47-9db5-98bf5d8a3e75.png">
+
+
+
+
+
